@@ -1,0 +1,186 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: purple;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero .container {
+    text-align: center;
+}
+
+/* Brand Overview Section */
+.brand-overview {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.brand-overview h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.brand-overview p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.brand-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Target Audience Section */
+.target-audience {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+.target-audience h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.target-audience p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.audience-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+}
+
+.stat h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Design Philosophy Section */
+.design-philosophy {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.design-philosophy h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.design-philosophy ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.design-philosophy li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Brand Positioning Section */
+.brand-positioning {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.brand-positioning h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.brand-positioning p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Marketing Strategy Section */
+.marketing-strategy {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.marketing-strategy h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.marketing-strategy p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.marketing-strategy ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.marketing-strategy li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #2D9CDB;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+}

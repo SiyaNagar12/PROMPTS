@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#e28181, #a2a7db);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+   
+}
+
+.content {
+  width: 40%;
+  height: 90%;
+  background-color:white;
+  box-shadow: 20px 20px 20px 5px black;
+  border-radius: 20% 10%;
+  margin: 300px;
+
+}
+.content form .num h3{
+
+    position: absolute;
+    top: 27%;
+    left: 35%;
+
+}
+.content form .card h3{
+
+    position: absolute;
+    top: 44%;
+    left: 35%;
+
+}
+.content form .date h3{
+
+    position: absolute;
+    top: 61%;
+    left: 35%;
+
+}

@@ -1,0 +1,157 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+.blog-header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.blog-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.blog-header .post-meta {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Container for layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Blog post content */
+.blog-post {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Images */
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Typography for responsive design */
+.intro-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* List styles */
+ul {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+.blog-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .blog-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-text {
+        font-size: 1.125rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-header h1 {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .post-content {
+        padding: 20px;
+    }
+
+    .post-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro-text {
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,137 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .flyer {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flyer-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .event-title {
+    font-size: 2.5em;
+    color:black;
+    margin-bottom: 10px;
+  }
+  
+  .event-details {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .event-date,
+  .event-time,
+  .event-location {
+    font-size: 1.1em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .rsvp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .rsvp-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles using Media Queries */
+  
+  /* For tablets and up (600px and above) */
+  @media screen and (min-width: 600px) {
+    .flyer {
+      width: 80%;
+    }
+  
+    .event-title {
+      font-size: 3em;
+    }
+  
+    .event-details {
+      font-size: 1.5em;
+    }
+  
+    .event-date,
+    .event-time,
+    .event-location {
+      font-size: 1.3em;
+    }
+  
+    .rsvp-btn {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* For larger screens (960px and above) */
+  @media screen and (min-width: 960px) {
+    .flyer {
+      width: 60%;
+    }
+  
+    .event-title {
+      font-size: 4em;
+    }
+  
+    .event-details {
+      font-size: 1.8em;
+    }
+  
+    .event-date,
+    .event-time,
+    .event-location {
+      font-size: 1.5em;
+    }
+  
+    .rsvp-btn {
+      font-size: 1.8em;
+    }
+  }
+  
+  /* For mobile screens (below 600px) */
+  @media screen and (max-width: 599px) {
+    .flyer {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .event-title {
+      font-size: 2em;
+    }
+  
+    .event-details {
+      font-size: 1.1em;
+    }
+  
+    .event-date,
+    .event-time,
+    .event-location {
+      font-size: 1em;
+    }
+  
+    .rsvp-btn {
+      font-size: 1.2em;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

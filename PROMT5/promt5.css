@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.profile-header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.profile-banner {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profile-picture {
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-details h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.profile-details h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #666;
+}
+
+.location {
+    font-size: 18px;
+    color: #888;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background-color: pink;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.company, .school {
+    font-size: 18px;
+    color: #444;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 40px;
+}
+
+.footer a {
+    color:purple;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

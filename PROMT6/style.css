@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(rgb(204, 119, 133),rgb(138, 43, 59)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box .insidebox{
+width: 50%;
+height: 90%;
+background-color:white;
+    position: relative;
+background-image: url(view-airplane-window-clouds-sunset-600nw-2018509667.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* filter: blur(1px); */
+}
+.insidebox h3{
+font-family: cursive;
+font-weight: 200;
+position: absolute;
+top: 21px;
+left: 141px;
+color: rgb(4, 36, 97);
+/* z-index: -999px; */
+}
+.insidebox h1{
+   
+font-family: "Mitr", sans-serif;
+font-weight: 600;
+ font-style: normal;
+position: absolute;
+top: 34px;
+left: 129px;
+color:rgb(59, 0, 59);
+letter-spacing: 3px;
+
+}
+.insidebox p{
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    font-size: 13px;
+    color: white;
+
+}
+.insidebox img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white ;
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    rotate: 20deg;
+}
+.insidebox .content ul{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+list-style: none;
+gap: 5px;
+color: rgb(4, 36, 97);
+font-weight: 800;
+}
+.insidebox button{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 15px;
+padding: 3px 15px 3px 15px;
+border: none;
+border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.insidebox  .content h4{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color:rgb(36, 1, 36) ;
+}
